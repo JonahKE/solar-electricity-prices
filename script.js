@@ -19,7 +19,7 @@ $(document).ready(function() {
   var SHOW_LEGEND = true; // `true` to show the legend, `false` to hide
 
   // Read data file and create a chart
-  d3.csv('data.csv').then(function(rows) {
+  d3.csv('bundesland.csv').then(function(rows) {
 
     var datasets = rows.map(function(row) {
 
