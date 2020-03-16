@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var TITLE = 'Installed Solar Capacity by State - Germany';
+  var TITLE = 'Solar Electricity Pricing';
 
   // Which column names contain data points?
   var X_LABELS = ['2015', '2016', '2017', '2018', '2019'];
